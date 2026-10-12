@@ -1,0 +1,13 @@
+format = 2
+name = "australlis.rescue"
+version = "0.0.1"
+type = "exec"
+output = "rescue.exec"
+sources = ["./program.hy"]
+project_references = []
+
+[package]
+id = "australlis.rescue"
+description = ""
+authors = ["Aurora Softwares"]
+license = "MIT"
