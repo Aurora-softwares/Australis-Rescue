@@ -1,3 +1,3 @@
-# Australis rescue plan (Recovery Shell)
+# Australis rescue shell plan
 
 ## CLI Commands to require
