@@ -24,7 +24,12 @@ from a missing or corrupt root image.
 
 KMon should keep bounded terminal input over COM1, report boot and storage
 failure causes, inspect mounts, memory, devices, and recent process faults,
-and allow a controlled retry, reboot, or halt. Destructive commands such as
+and allow a controlled retry, reboot, or halt. In the current early `R` Rescue,
+`continue` resets into a fresh normal boot because the bootloader skipped
+controller and storage setup. `reboot` resets and `halt` stops the processor.
+The `trace` command shows boot diagnostics and recent monitor commands;
+`registers` shows a live CPU snapshot. `panic` is available only in `D` Debug
+boot. Destructive commands such as
 memory writes require an explicit debugging mode. Ordinary userland commands
 and service policy belong in [the userland shell](../shell/README.md) and
 [system manager](../userland/system/README.md), not in KMon.
