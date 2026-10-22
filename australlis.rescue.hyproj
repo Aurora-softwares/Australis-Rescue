@@ -1,6 +1,6 @@
 format = 2
 name = "australlis.rescue"
-version = "0.0.1"
+version = "0.1.0"
 type = "exec"
 output = "rescue.exec"
 sources = ["./program.hy"]
