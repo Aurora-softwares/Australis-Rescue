@@ -1,5 +1,5 @@
 format = 2
-name = "australlis.rescue"
+name = "Australis.Rescue"
 version = "0.1.0"
 type = "exec"
 output = "rescue.exec"
@@ -7,7 +7,7 @@ sources = ["./program.hy"]
 project_references = []
 
 [package]
-id = "australlis.rescue"
+id = "australis.rescue"
 description = ""
 authors = ["Aurora Softwares"]
 license = "MIT"
