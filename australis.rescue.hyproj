@@ -1,5 +1,5 @@
 format = 2
-name = "Australis.Rescue"
+name = "Australis Rescue"
 version = "0.1.0"
 type = "exec"
 output = "rescue.exec"
